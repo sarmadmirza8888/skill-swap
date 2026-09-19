@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Nav from './HomePage/Nav'
+import Footer from './HomePage/Footer'
 const Login = () => {
     return (
         <div className='min-h-screen bg-[#0B1120] px-6 py-10'>
+            <Nav />
             <div className='max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[85vh]'>
                 <div className='px-5 lg:px-8'>
                     <h1 className='text-5xl lg:text-6xl font-bold text-[#F8FAFC] leading-tight'> Welcome Back.  <br /> Keep Learning. </h1>
@@ -39,6 +41,7 @@ const Login = () => {
                 </div>
 
             </div>
+            <Footer />
 
         </div>
         

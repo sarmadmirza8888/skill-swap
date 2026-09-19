@@ -1,9 +1,13 @@
 import React from 'react'
 import ProfilePic from '../assets/ProfilePic.jpeg'
+import Nav from './HomePage/Nav'
+import Footer from './HomePage/Footer'
+
 
 const MyProfile = () => {
     return (
         <div className='min-h-screen bg-[#0B1120] text-[#F8FAFC]'>
+            <Nav  />
             <div className='max-w-5xl mx-auto px-6 py-10'>
                 <div className='bg-[#1E293B] border border-[#334155] rounded-2xl p-6 mb-6'>
                     <div className='flex flex-col md:flex-row gap-6 items-center'>
@@ -59,6 +63,7 @@ const MyProfile = () => {
                     <button className='bg-[#14B8A6] text-[#F8FAFC] px-8 py-3 rounded-full font-semibold hover:bg-[#0D9488] transition duration-200'> Save Changes</button>
                 </div>
             </div>
+            <Footer />
 
         </div>
     )

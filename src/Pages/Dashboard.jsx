@@ -1,17 +1,11 @@
 import React from 'react'
+import Nav from './HomePage/Nav'
+import Footer from './HomePage/Footer'
 
 const Dashboard = () => {
     return (
         <div className='min-h-screen bg-[#0B1120] text-[#F8FAFC]'>
-            <nav className='bg-[#1E293B] border-b border-[#334155] px-6 py-4'>
-                <div className='max-w-6xl mx-auto flex justify-between items-center'>
-                    <h1 className='text-2xl font-bold text-[#14B8A6]'> SkillSwap </h1>
-                    <div className='flex items-center gap-4'>
-                        <span className='text-[#94A3B8] '> </span>
-                        <div className='w-10 h-10 rounded-full bg-[#14B8A6] flex items-center justify-center font-bold'> 👤 </div>
-                    </div>
-                </div>
-            </nav>
+            <Nav />
             <div className=' px-4 py-6'>
                 <h2 className='text-3xl md:text-4xl font-bold'> Welcome back</h2>
                 <p className='text-[#94A3B8] mt-2'> Manage your skills, swaps and learning sessions. </p>
@@ -52,7 +46,7 @@ const Dashboard = () => {
                 <button className='pb-3 text-[#94A3B8] hover:text-[#F8FAFC] '> Completed </button>
             </div>
             <div className='space-y-4'>
-                <div className='bg-[#1E293B] border border-[#334155] rounded-2xl p-5 ml-2 mr-2'>
+                <div className='bg-[#1E293B] border border-[#334155] rounded-2xl p-5 ml-2 '>
                     <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-5'>
                         <div> <p className='text-sm text-[#94A3B8]'> Skill Exchange</p>
                             <h3 className='text-xl font-semibold mt-1'> React , UI/UX Design </h3>
@@ -84,6 +78,7 @@ const Dashboard = () => {
                 </div>
 
             </div>
+            <Footer />
 
         </div>
     )
