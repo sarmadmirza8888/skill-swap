@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="border-t border-black rounded-2xl bg-[#0B1120] h-20 translate-y-9 ml-20 mr-20 flex justify-center items-center ">
-      <p className="text-white">©2026 SkillSwap. All rights reserved.</p>
+    <div className="border-t border-[#334155] rounded-2xl bg-[#111827] h-20 translate-y-9 ml-20 mr-20 flex justify-center items-center ">
+      <p className="text-[#94A3B8]">©2026 SkillSwap. All rights reserved.</p>
     </div>
   )
 }
