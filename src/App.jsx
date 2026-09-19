@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
@@ -8,6 +7,10 @@ import Register from './Pages/Register'
 import Login from './Pages/Login'
 import Dashboard from './Pages/Dashboard'
 import MyProfile from './Pages/MyProfile'
+import HelpContact from './Pages/HelpContact'
+import Community from './Pages/CommunityPage/Community'
+
+
 
 function App() {
   return (
@@ -19,10 +22,11 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/MyProfile" element={<MyProfile />} />
+        <Route path="/HelpContact" element={<HelpContact />} />
+        <Route path="/Community" element={<Community />}/>
       </Routes>
     </BrowserRouter>
   )
 }
 
 export default App
-
