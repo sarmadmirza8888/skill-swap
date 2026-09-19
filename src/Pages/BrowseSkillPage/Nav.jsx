@@ -7,7 +7,7 @@ const Nav = () => {
       <button className="text-[#F8FAFC] ml-145 w-15 rounded-2xl hover:bg-[#0F766E]  ">Home</button>
       <button className="text-[#F8FAFC]  rounded-2xl w-20 hover:bg-[#0F766E] ">Browse</button>
       <button className="border border-white text-[#F8FAFC] rounded-2xl  bg-[#14B8A6] hover:bg-[#0F766E] bg-origin-padding w-35 ">Dashboard</button>
-      <img src="/browse1.jpeg" alt="Profile"  className= " border border-black h-15 w-15 rounded-2xl  ml-2" />
+      <img src="/myimage.jpeg" alt="Profile"  className= " border border-black h-15 w-15 rounded-2xl  ml-2" />
     </div>
   )
 }
