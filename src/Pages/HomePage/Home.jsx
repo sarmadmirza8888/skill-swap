@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className=" min-h-screen bg-[#0B1120]"> 
      <Nav/>
-  <Center/>
+     <Center/>
   
      <Footer/>
     </div>
